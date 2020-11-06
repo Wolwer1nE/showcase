@@ -1,0 +1,14 @@
+Страница для создания нового проекта
+<div class="custom-form">
+  <%= form_for :project, url: {action: "create"} do |f| %>
+    <div class="custom-form-row">
+      Имя: <%= f.text_field :name, required: true %>
+    </div>
+    <div class="custom-form-row">
+      Описание: <%= f.text_area :description %>
+    </div>
+    <div class="custom-form-row">
+      <%= f.submit %>
+    </div>
+  <% end %>
+</div>

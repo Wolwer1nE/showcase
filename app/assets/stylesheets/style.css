@@ -1,0 +1,12 @@
+.project-name {
+    color: red;
+}
+.custom-form{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+.custom-form .custom-form-row{
+    display: flex;
+    justify-content: space-between;
+}
